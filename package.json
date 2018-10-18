@@ -1,0 +1,25 @@
+{
+  "name": "bestdestination",
+  "version": "0.0.1",
+  "description": "Simple static site for BestDestination",
+  "main": "index.js",
+  "author": "Artem Slepets (49h4dhperfect@gmail.com)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export" : "next export"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "prettier": "1.14.3"
+  }
+}
