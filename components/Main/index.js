@@ -47,9 +47,13 @@ const CityList = styled.div`
 `;
 
 const City = styled.p`
-  flex: 1 0 33%;
+  flex: 1 0 50%;
   line-height: 1;
   margin-bottom: 3px;
+
+  @media (min-width: 400px) {
+    flex: 1 0 33%;
+  }
 `;
 
 const CityLink = styled.a`
