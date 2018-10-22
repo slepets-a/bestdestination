@@ -81,7 +81,7 @@ const Main = () => (
           <CityList>
             {country.cities.map((city, cityIndex) => (
               <City key={cityIndex}>
-                <CityLink href={city.link || "https://best-destination.com"}>
+                <CityLink href={`https://best-destination.com${city.link}`}>
                   {city.name}
                 </CityLink>
               </City>
